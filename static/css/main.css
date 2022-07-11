@@ -1,0 +1,35 @@
+.container-fluid{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.card{
+    margin-bottom: 4%;
+}
+.for-user{
+    font-weight: bold;
+    color: gray;
+    font-size: 14pt;
+}
+.for-tags{
+    color: gray;
+    margin-right: 7px;
+}
+.for-views{
+    color: gray;
+    text-align: center;
+    margin-left: 50%;
+}
+.navbar{
+    margin-bottom: 4%;
+}
+.sidebar_tags{
+    margin-right: 5px;
+    padding: 0.2em 0.6em 0.3em;
+    background-color: #798d8f;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 75%;
+    text-decoration: none;
+}

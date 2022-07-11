@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+
+{% block content %}
+
+<h2> <span style="color:red">{{blog.title}}blogini o'chirish</span></h2>
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+  
+
+    
+    <button type="submit" class="btn btn-primary">Delete blog</button>
+</form>
+{% endblock %}
